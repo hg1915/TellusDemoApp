@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3E9DC9602627D7D300AD7CCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DC95F2627D7D300AD7CCF /* AppDelegate.swift */; };
-		3E9DC9622627D7D300AD7CCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DC9612627D7D300AD7CCF /* SceneDelegate.swift */; };
-		3E9DC9642627D7D300AD7CCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DC9632627D7D300AD7CCF /* ViewController.swift */; };
-		3E9DC9672627D7D300AD7CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9DC9652627D7D300AD7CCF /* Main.storyboard */; };
 		3E9DC9692627D7D500AD7CCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9DC9682627D7D500AD7CCF /* Assets.xcassets */; };
 		3E9DC96C2627D7D500AD7CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9DC96A2627D7D500AD7CCF /* LaunchScreen.storyboard */; };
+		3E9DC9762627D81900AD7CCF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DC9752627D81900AD7CCF /* SignUpViewController.swift */; };
+		3E9DC9792627D82600AD7CCF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DC9782627D82600AD7CCF /* HomeViewController.swift */; };
+		3E9DC97C2627D83100AD7CCF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DC97B2627D83100AD7CCF /* Extensions.swift */; };
+		3E9DC97F2627D83C00AD7CCF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DC97E2627D83C00AD7CCF /* API.swift */; };
+		3E9DC98E2628085B00AD7CCF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DC98D2628085B00AD7CCF /* SessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E9DC95C2627D7D300AD7CCF /* TellusDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TellusDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9DC95F2627D7D300AD7CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E9DC9612627D7D300AD7CCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E9DC9632627D7D300AD7CCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3E9DC9662627D7D300AD7CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E9DC9682627D7D500AD7CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E9DC96B2627D7D500AD7CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E9DC96D2627D7D500AD7CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9DC9752627D81900AD7CCF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3E9DC9782627D82600AD7CCF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3E9DC97B2627D83100AD7CCF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3E9DC97E2627D83C00AD7CCF /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		3E9DC98D2628085B00AD7CCF /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				3E9DC95F2627D7D300AD7CCF /* AppDelegate.swift */,
-				3E9DC9612627D7D300AD7CCF /* SceneDelegate.swift */,
-				3E9DC9632627D7D300AD7CCF /* ViewController.swift */,
-				3E9DC9652627D7D300AD7CCF /* Main.storyboard */,
+				3E9DC9752627D81900AD7CCF /* SignUpViewController.swift */,
+				3E9DC9782627D82600AD7CCF /* HomeViewController.swift */,
 				3E9DC9682627D7D500AD7CCF /* Assets.xcassets */,
+				3E9DC97E2627D83C00AD7CCF /* API.swift */,
+				3E9DC97B2627D83100AD7CCF /* Extensions.swift */,
 				3E9DC96A2627D7D500AD7CCF /* LaunchScreen.storyboard */,
 				3E9DC96D2627D7D500AD7CCF /* Info.plist */,
+				3E9DC98D2628085B00AD7CCF /* SessionManager.swift */,
 			);
 			path = TellusDemoApp;
 			sourceTree = "<group>";
@@ -126,7 +132,6 @@
 			files = (
 				3E9DC96C2627D7D500AD7CCF /* LaunchScreen.storyboard in Resources */,
 				3E9DC9692627D7D500AD7CCF /* Assets.xcassets in Resources */,
-				3E9DC9672627D7D300AD7CCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +142,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E9DC9642627D7D300AD7CCF /* ViewController.swift in Sources */,
+				3E9DC97C2627D83100AD7CCF /* Extensions.swift in Sources */,
+				3E9DC9762627D81900AD7CCF /* SignUpViewController.swift in Sources */,
+				3E9DC98E2628085B00AD7CCF /* SessionManager.swift in Sources */,
 				3E9DC9602627D7D300AD7CCF /* AppDelegate.swift in Sources */,
-				3E9DC9622627D7D300AD7CCF /* SceneDelegate.swift in Sources */,
+				3E9DC97F2627D83C00AD7CCF /* API.swift in Sources */,
+				3E9DC9792627D82600AD7CCF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3E9DC9652627D7D300AD7CCF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E9DC9662627D7D300AD7CCF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3E9DC96A2627D7D500AD7CCF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
